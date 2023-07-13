@@ -1,0 +1,165 @@
+{
+  "uid" : "cfd77dfe5908da6a",
+  "name" : "test_search[d0]",
+  "fullName" : "testcase.test_search#test_search",
+  "historyId" : "38e1a8c625204e7214ad035408714d45",
+  "time" : {
+    "start" : 1685788576979,
+    "stop" : 1685788583804,
+    "duration" : 6825
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WindowsPath' object has no attribute 'lower'",
+  "statusTrace" : "d = {'id': '1', 'txt': 'xiaomi 12'}\nsetup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"b18fca44-8981-437b-abd1-0f99f543e50c\")>\n\n    @pytest.mark.parametrize(\"d\", data)\n    def test_search(d, setup_teardown):\n    \tdriver = setup_teardown\n    \tstartapp = startApp(driver=driver)\n    \tele = startapp.top_search()\n    \tsearcchShop(driver=startapp.driver).search_input(txt=d[\"txt\"])\n>   \tdriver.get_screenshot_as_file(BASE_DIR().SCREENSHOT / (d[\"id\"] + \".png\"))\n\ntestcase\\test_search.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <appium.webdriver.webdriver.WebDriver (session=\"b18fca44-8981-437b-abd1-0f99f543e50c\")>\nfilename = WindowsPath('D:/python_Code/pythonProject/pythonclasses/autoclass/day06/appautotest/reports/screenshot/1.png')\n\n    def get_screenshot_as_file(self, filename) -> bool:\n        \"\"\"\n        Saves a screenshot of the current window to a PNG image file. Returns\n           False if there is any IOError, else returns True. Use full paths in\n           your filename.\n    \n        :Args:\n         - filename: The full path you wish to save your screenshot to. This\n           should end with a `.png` extension.\n    \n        :Usage:\n            ::\n    \n                driver.get_screenshot_as_file('/Screenshots/foo.png')\n        \"\"\"\n>       if not filename.lower().endswith('.png'):\nE       AttributeError: 'WindowsPath' object has no attribute 'lower'\n\nC:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:1318: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685788568690,
+      "stop" : 1685788568789,
+      "duration" : 99
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685788568790,
+      "stop" : 1685788568790,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685788568790,
+      "stop" : 1685788576978,
+      "duration" : 8188
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685788568790,
+      "stop" : 1685788568790,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685788568790,
+      "stop" : 1685788568790,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685788568790,
+      "stop" : 1685788568790,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685788583907,
+      "stop" : 1685788584604,
+      "duration" : 697
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "10956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'id': '1', 'txt': 'xiaomi 12'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfd77dfe5908da6a.json",
+  "parameterValues" : [ "{'id': '1', 'txt': 'xiaomi 12'}" ]
+}

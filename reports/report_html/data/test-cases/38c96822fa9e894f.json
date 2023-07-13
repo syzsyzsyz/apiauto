@@ -1,0 +1,165 @@
+{
+  "uid" : "38c96822fa9e894f",
+  "name" : "test_search[d0]",
+  "fullName" : "testcase.test_search#test_search",
+  "historyId" : "38e1a8c625204e7214ad035408714d45",
+  "time" : {
+    "start" : 1685786787127,
+    "stop" : 1685786791889,
+    "duration" : 4762
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: search_input() missing 1 required positional argument: 'self'",
+  "statusTrace" : "d = {'txt': 'xiaomi 12'}\nsetup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"87dc0ddc-bb47-4a08-9599-b1f12f2843b0\")>\n\n    @pytest.mark.parametrize(\"d\", data)\n    def test_search(d, setup_teardown):\n    \tdriver = setup_teardown\n    \tele = startApp(driver=driver).top_search()\n>   \tsearcchShop.search_input(ele=ele, txt=d[\"txt\"])\nE    TypeError: search_input() missing 1 required positional argument: 'self'\n\ntestcase\\test_search.py:19: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685786779010,
+      "stop" : 1685786779105,
+      "duration" : 95
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685786779105,
+      "stop" : 1685786779105,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685786779105,
+      "stop" : 1685786787127,
+      "duration" : 8022
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685786779105,
+      "stop" : 1685786779105,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685786779105,
+      "stop" : 1685786779105,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685786779105,
+      "stop" : 1685786779105,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685786792052,
+      "stop" : 1685786793051,
+      "duration" : 999
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "13024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'txt': 'xiaomi 12'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38c96822fa9e894f.json",
+  "parameterValues" : [ "{'txt': 'xiaomi 12'}" ]
+}

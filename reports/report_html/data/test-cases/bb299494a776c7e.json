@@ -1,0 +1,165 @@
+{
+  "uid" : "bb299494a776c7e",
+  "name" : "test_search[d0]",
+  "fullName" : "testcase.test_search#test_search",
+  "historyId" : "38e1a8c625204e7214ad035408714d45",
+  "time" : {
+    "start" : 1685786621208,
+    "stop" : 1685786625899,
+    "duration" : 4691
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: search_input() missing 1 required positional argument: 'txt'",
+  "statusTrace" : "d = {'txt': 'xiaomi 12'}\nsetup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"cb7bb4ef-f74f-415a-a8ca-23dba624d76c\")>\n\n    @pytest.mark.parametrize(\"d\", data)\n    def test_search(d, setup_teardown):\n    \tdriver = setup_teardown\n    \tele = startApp(driver=driver).top_search()\n>   \tsearcchShop.search_input(ele, d[\"txt\"])\nE    TypeError: search_input() missing 1 required positional argument: 'txt'\n\ntestcase\\test_search.py:19: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685786612811,
+      "stop" : 1685786612929,
+      "duration" : 118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685786612929,
+      "stop" : 1685786612929,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685786612929,
+      "stop" : 1685786612929,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685786612929,
+      "stop" : 1685786612929,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685786612929,
+      "stop" : 1685786621207,
+      "duration" : 8278
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685786612929,
+      "stop" : 1685786612929,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685786625980,
+      "stop" : 1685786626745,
+      "duration" : 765
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "3428-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'txt': 'xiaomi 12'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb299494a776c7e.json",
+  "parameterValues" : [ "{'txt': 'xiaomi 12'}" ]
+}

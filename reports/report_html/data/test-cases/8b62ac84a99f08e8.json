@@ -1,0 +1,162 @@
+{
+  "uid" : "8b62ac84a99f08e8",
+  "name" : "test_swipe",
+  "fullName" : "testcase.test_goto_page#test_swipe",
+  "historyId" : "3d43d2ce1d3a9a5a3a2e5a8237a32149",
+  "time" : {
+    "start" : 1685855268588,
+    "stop" : 1685855271609,
+    "duration" : 3021
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'appauto' object has no attribute 'startx'",
+  "statusTrace" : "setup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"924b8184-084e-4c7f-b48c-18832ad6e075\")>\n\n    def test_swipe(setup_teardown):\n    \tsleep(3)\n>   \tappauto(driver=setup_teardown).swipe_utils(k=1, defult=\"bottom_top\")\n\ntestcase\\test_goto_page.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <utils.appauto_utils.appauto object at 0x0D1FC2F0>, k = 1\ndefult = 'bottom_top'\n\n    def swipe_utils(self, k = 1, defult = \"top_bottom\"):\n    \tself.size = self.driver.get_window_size()\n    \tself.width, self.height = self.size['width'], self.size['height']\n    \tif defult == \"top_buttom\":\n    \t\tself.startx, slef.starty =  0.5 * self.width,0.2 * self.height\n    \t\tself.endx, self.endy = startx, 0.8 * self.height\n    \telif defult == \"botton_top\":\n    \t\tself.startx, self.starty = 0.5 * self.width, 0.8 * self.height\n    \t\tself.endx, self.endy = startx, 0.2 * height\n    \telif defult == \"left_right\":\n    \t\tpass\n    \telif defult == \"right_left\":\n    \t\tpass\n>   \tself.driver.swipe(self.startx, self.starty, self.endx, self.endy, k)\nE    AttributeError: 'appauto' object has no attribute 'startx'\n\nutils\\appauto_utils.py:26: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685855259034,
+      "stop" : 1685855259188,
+      "duration" : 154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685855259188,
+      "stop" : 1685855259189,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685855259188,
+      "stop" : 1685855259188,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685855259189,
+      "stop" : 1685855259189,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685855259189,
+      "stop" : 1685855259189,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685855259189,
+      "stop" : 1685855268587,
+      "duration" : 9398
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685855271684,
+      "stop" : 1685855272390,
+      "duration" : 706
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_goto_page"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "15608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_goto_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b62ac84a99f08e8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid" : "a3f2d6fbd1068fc5",
+  "name" : "test_add_exc[d1]",
+  "fullName" : "testcase.test_add#test_add_exc",
+  "historyId" : "6c90bdb9a20bffeee4e26e7f2f5dc4d0",
+  "time" : {
+    "start" : 1685786174615,
+    "stop" : 1685786174615,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\python_Code\\\\pythonProject\\\\pythonclasses\\\\autoclass\\\\day06\\\\appautotest\\\\testcase\\\\test_add.py', 18, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685786174621,
+      "stop" : 1685786174720,
+      "duration" : 99
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685786174720,
+      "stop" : 1685786174720,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685786174720,
+      "stop" : 1685786174720,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685786174720,
+      "stop" : 1685786174720,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685786174720,
+      "stop" : 1685786174720,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685786174721,
+      "stop" : 1685786182211,
+      "duration" : 7490
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)\n",
+    "statusTrace" : "  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\pluggy\\_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"D:\\python_Code\\pythonProject\\pythonclasses\\autoclass\\day06\\appautotest\\conftest.py\", line 27, in setup_teardown\n    driver = webdriver.Remote(\"http://127.0.0.1:4723/wd/hub\", Caps.caps_auto_device_notstart)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\appium\\webdriver\\webdriver.py\", line 275, in __init__\n    AppiumConnection(command_executor, keep_alive=keep_alive), desired_capabilities, browser_profile, proxy\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 269, in __init__\n    self.start_session(capabilities, browser_profile)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\appium\\webdriver\\webdriver.py\", line 369, in start_session\n    response = self.execute(RemoteCommand.NEW_SESSION, parameters)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 425, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 247, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "11368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'name': 'case002_参数化加法', 'num1': 88, 'num2': 97}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "a3f2d6fbd1068fc5.json",
+  "parameterValues" : [ "{'name': 'case002_参数化加法', 'num1': 88, 'num2': 97}" ]
+}

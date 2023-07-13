@@ -1,0 +1,2 @@
+INFO     root:test_add.py:25 当前执行用例->case001_参数化加法
+INFO     root:test_add.py:27 期望结果是->24,实际结果是->24

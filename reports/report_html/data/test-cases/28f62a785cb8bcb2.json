@@ -1,0 +1,165 @@
+{
+  "uid" : "28f62a785cb8bcb2",
+  "name" : "test_search[d0]",
+  "fullName" : "testcase.test_search#test_search",
+  "historyId" : "38e1a8c625204e7214ad035408714d45",
+  "time" : {
+    "start" : 1685786501127,
+    "stop" : 1685786501127,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: type object 'AppiumBy' has no attribute 'id'",
+  "statusTrace" : "d = {'txt': 'xiaomi 12'}\nsetup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"f9c45484-535f-4cb4-994d-ffcd2d965d46\")>\n\n    @pytest.mark.parametrize(\"d\", data)\n    def test_search(d, setup_teardown):\n    \tdriver = setup_teardown\n>   \tele = startApp(driver=driver).top_search()\n\ntestcase\\test_search.py:18: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.xiaomiShop.start_page.startApp object at 0x0DAF0950>\n\n    def top_search(self):\n    \tid = \"com.xiaomi.shop.plugin.homepage:id/fragment_search_view\"\n>   \tsearch = self.find_elenment((by.id, id))\nE    AttributeError: type object 'AppiumBy' has no attribute 'id'\n\npage\\xiaomiShop\\start_page.py:18: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685786493061,
+      "stop" : 1685786493159,
+      "duration" : 98
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685786493160,
+      "stop" : 1685786493160,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685786493160,
+      "stop" : 1685786501127,
+      "duration" : 7967
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685786493160,
+      "stop" : 1685786493160,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685786493160,
+      "stop" : 1685786493160,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685786493160,
+      "stop" : 1685786493160,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685786501193,
+      "stop" : 1685786502098,
+      "duration" : 905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "16204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'txt': 'xiaomi 12'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28f62a785cb8bcb2.json",
+  "parameterValues" : [ "{'txt': 'xiaomi 12'}" ]
+}

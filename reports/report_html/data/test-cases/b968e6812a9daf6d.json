@@ -1,0 +1,162 @@
+{
+  "uid" : "b968e6812a9daf6d",
+  "name" : "test_swipe",
+  "fullName" : "testcase.test_goto_page#test_swipe",
+  "historyId" : "3d43d2ce1d3a9a5a3a2e5a8237a32149",
+  "time" : {
+    "start" : 1685852003123,
+    "stop" : 1685852006139,
+    "duration" : 3016
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'startx' referenced before assignment",
+  "statusTrace" : "setup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"48805503-0ea0-48d5-bd1b-6e0f25ec2d0f\")>\n\n    def test_swipe(setup_teardown):\n    \tsleep(3)\n>   \tappauto(driver=setup_teardown).swipe_utils(k=1, defult=\"bottom_top\")\n\ntestcase\\test_goto_page.py:19: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <utils.appauto_utils.appauto object at 0x0D54B2F0>, k = 1\ndefult = 'bottom_top'\n\n    def swipe_utils(self, k = 1, defult = \"top_bottom\"):\n    \tsize = self.driver.get_window_size()\n    \twidth, height = size['width'], size['height']\n    \tif defult == \"top_buttom\":\n    \t\tstartx, starty =  0.5 * width,0.2 * height\n    \t\tendx, endy = startx, 0.8 * height\n    \telif defult == \"botton_top\":\n    \t\tstartx, starty = 0.5 * width, 0.8 * height\n    \t\tendx, endy = startx, 0.2 * height\n    \telif defult == \"left_right\":\n    \t\tpass\n    \telif defult == \"right_left\":\n    \t\tpass\n>   \tself.driver.swipe(start_x=startx, start_y=starty, end_x=endx, end_y=endy, duration=k)\nE    UnboundLocalError: local variable 'startx' referenced before assignment\n\nutils\\appauto_utils.py:26: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685851989577,
+      "stop" : 1685851989890,
+      "duration" : 313
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685851989891,
+      "stop" : 1685851989891,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685851989891,
+      "stop" : 1685851989891,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685851989891,
+      "stop" : 1685851989891,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685851989892,
+      "stop" : 1685852003122,
+      "duration" : 13230
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685851989892,
+      "stop" : 1685851989892,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685852006277,
+      "stop" : 1685852007245,
+      "duration" : 968
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_goto_page"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "19984-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_goto_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b968e6812a9daf6d.json",
+  "parameterValues" : [ ]
+}

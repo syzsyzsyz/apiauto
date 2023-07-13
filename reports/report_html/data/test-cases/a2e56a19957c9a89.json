@@ -1,0 +1,165 @@
+{
+  "uid" : "a2e56a19957c9a89",
+  "name" : "test_search[d0]",
+  "fullName" : "testcase.test_search#test_search",
+  "historyId" : "38e1a8c625204e7214ad035408714d45",
+  "time" : {
+    "start" : 1685788334900,
+    "stop" : 1685788341875,
+    "duration" : 6975
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: unsupported operand type(s) for +: 'WindowsPath' and 'str'",
+  "statusTrace" : "d = {'txt': 'xiaomi 12'}\nsetup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"6bed0907-a854-41e7-9cf4-bef7dc4990d0\")>\n\n    @pytest.mark.parametrize(\"d\", data)\n    def test_search(d, setup_teardown):\n    \tdriver = setup_teardown\n    \tstartapp = startApp(driver=driver)\n    \tele = startapp.top_search()\n    \tsearcchShop(driver=startapp.driver).search_input(txt=d[\"txt\"])\n>   \tdriver.get_screenshot_as_file(BASE_DIR().SCREENSHOT / d[\"txt\"] + \".png\")\nE    TypeError: unsupported operand type(s) for +: 'WindowsPath' and 'str'\n\ntestcase\\test_search.py:21: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685788326502,
+      "stop" : 1685788326602,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685788326603,
+      "stop" : 1685788326603,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685788326603,
+      "stop" : 1685788326603,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685788326603,
+      "stop" : 1685788334899,
+      "duration" : 8296
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685788326603,
+      "stop" : 1685788326603,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685788326603,
+      "stop" : 1685788326603,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685788341948,
+      "stop" : 1685788342685,
+      "duration" : 737
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "8284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'txt': 'xiaomi 12'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2e56a19957c9a89.json",
+  "parameterValues" : [ "{'txt': 'xiaomi 12'}" ]
+}

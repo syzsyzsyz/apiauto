@@ -1,0 +1,183 @@
+{
+  "uid" : "fe44cba6ec2bf0c4",
+  "name" : "test_add_exc[d1]",
+  "fullName" : "testcase.test_add#test_add_exc",
+  "historyId" : "6c90bdb9a20bffeee4e26e7f2f5dc4d0",
+  "time" : {
+    "start" : 1685287036865,
+    "stop" : 1685287041764,
+    "duration" : 4899
+  },
+  "status" : "broken",
+  "statusMessage" : "ValueError: invalid literal for int() with base 10: '支出'",
+  "statusTrace" : "setup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"df5cac70-7d5b-4368-8cf1-a1ae6e45735b\")>\nd = {'name': 'case002_参数化加法', 'num1': 71, 'num2': 85}\n\n    @pytest.mark.parametrize(\"d\", data)\n    def test_add_exc(setup_teardown,d):\n    \tdriver = setup_teardown\n    \n    \n    \ttest_jisaun = jisuan(driver=driver)\n    \texpected = d[\"num1\"] + d[\"num2\"]\n    \tlogging.info(\"当前执行用例->{0}\".format(d[\"name\"]))\n>   \tres = test_jisaun.add(d[\"num1\"], d[\"num2\"])\n\ntestcase\\test_add.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.test_jisuan.jisuan object at 0x0D270DB0>, num_btn1 = 71\nnum_btn2 = 85\n\n    def add(self, num_btn1, num_btn2):\n    \n    \tself.find_elenment((by.ID, \"com.ibox.calculators:id/clear\")).click()\n    \n    \tfor i in range(len(str(num_btn1))):\n    \t\tself.find_elenment((by.ID, \"com.ibox.calculators:id/digit\"+str(num_btn1)[i])).click()\n    \n    \tself.find_elenment((by.ID, \"com.ibox.calculators:id/plus\")).click()\n    \n    \tfor i in range(len(str(num_btn2))):\n    \t\tself.find_elenment((by.ID, \"com.ibox.calculators:id/digit\"+str(num_btn2)[i])).click()\n    \n    \tself.find_elenment((by.ID, \"com.ibox.calculators:id/equal\")).click()\n    \n    \tres = self.find_elenment((by.ID, \"com.ibox.calculators:id/output_month\")).text\n    \tprint(res)\n>   \treturn int(res)\nE    ValueError: invalid literal for int() with base 10: '支出'\n\npage\\test_jisuan.py:27: ValueError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685287003058,
+      "stop" : 1685287003311,
+      "duration" : 253
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685287003312,
+      "stop" : 1685287003312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685287003312,
+      "stop" : 1685287003312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685287003312,
+      "stop" : 1685287003312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685287023427,
+      "stop" : 1685287023428,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685287023428,
+      "stop" : 1685287036863,
+      "duration" : 13435
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "ValueError: invalid literal for int() with base 10: '支出'",
+    "statusTrace" : "setup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"df5cac70-7d5b-4368-8cf1-a1ae6e45735b\")>\nd = {'name': 'case002_参数化加法', 'num1': 71, 'num2': 85}\n\n    @pytest.mark.parametrize(\"d\", data)\n    def test_add_exc(setup_teardown,d):\n    \tdriver = setup_teardown\n    \n    \n    \ttest_jisaun = jisuan(driver=driver)\n    \texpected = d[\"num1\"] + d[\"num2\"]\n    \tlogging.info(\"当前执行用例->{0}\".format(d[\"name\"]))\n>   \tres = test_jisaun.add(d[\"num1\"], d[\"num2\"])\n\ntestcase\\test_add.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.test_jisuan.jisuan object at 0x0D270DB0>, num_btn1 = 71\nnum_btn2 = 85\n\n    def add(self, num_btn1, num_btn2):\n    \n    \tself.find_elenment((by.ID, \"com.ibox.calculators:id/clear\")).click()\n    \n    \tfor i in range(len(str(num_btn1))):\n    \t\tself.find_elenment((by.ID, \"com.ibox.calculators:id/digit\"+str(num_btn1)[i])).click()\n    \n    \tself.find_elenment((by.ID, \"com.ibox.calculators:id/plus\")).click()\n    \n    \tfor i in range(len(str(num_btn2))):\n    \t\tself.find_elenment((by.ID, \"com.ibox.calculators:id/digit\"+str(num_btn2)[i])).click()\n    \n    \tself.find_elenment((by.ID, \"com.ibox.calculators:id/equal\")).click()\n    \n    \tres = self.find_elenment((by.ID, \"com.ibox.calculators:id/output_month\")).text\n    \tprint(res)\n>   \treturn int(res)\nE    ValueError: invalid literal for int() with base 10: '支出'\n\npage\\test_jisuan.py:27: ValueError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a36c15b26d15741c",
+      "name" : "log",
+      "source" : "a36c15b26d15741c.txt",
+      "type" : "text/plain",
+      "size" : 72
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685287041781,
+      "stop" : 1685287042617,
+      "duration" : 836
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "15476-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'name': 'case002_参数化加法', 'num1': 71, 'num2': 85}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe44cba6ec2bf0c4.json",
+  "parameterValues" : [ "{'name': 'case002_参数化加法', 'num1': 71, 'num2': 85}" ]
+}

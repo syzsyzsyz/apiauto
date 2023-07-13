@@ -1,0 +1,162 @@
+{
+  "uid" : "e1c5f1a43a9556ff",
+  "name" : "test_skip",
+  "fullName" : "testcase.test_goto_page#test_skip",
+  "historyId" : "e2680fae59f99e5fd47c3b866881db02",
+  "time" : {
+    "start" : 1685847544708,
+    "stop" : 1685847544860,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+  "statusTrace" : "setup_teardown = <appium.webdriver.webdriver.WebDriver (session=\"70df0ee9-8c94-43bb-a5b6-e85bf7d47364\")>\n\n    def test_skip(setup_teardown):\n    \tdriver = setup_teardown\n>   \tsetPage(driver=driver).goto_page(2)\n\ntest_goto_page.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <page.set_page.setPage object at 0x0D870BF0>, i = 2\n\n    def goto_page(self, i):\n    \txpath = \"/hierarchy/\" \\\n    \t\t\t\t\"android.widget.FrameLayout/\" \\\n    \t\t\t\t\"android.widget.LinearLayout/\" \\\n    \t\t\t\t\"android.widget.FrameLayout/android.widget.FrameLayout/\" \\\n    \t\t\t\t\"android.widget.LinearLayout/android.widget.FrameLayout/\" \\\n    \t\t\t\t\"android.widget.LinearLayout/android.widget.FrameLayout[%d]\"%i\n    \n>   \tself.find_elenment((\"XPATH\", xpath)).click()\nE    AttributeError: 'NoneType' object has no attribute 'click'\n\n..\\page\\set_page.py:20: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685847534888,
+      "stop" : 1685847535334,
+      "duration" : 446
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685847535335,
+      "stop" : 1685847535336,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685847535335,
+      "stop" : 1685847535335,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685847535336,
+      "stop" : 1685847535336,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685847535337,
+      "stop" : 1685847535338,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685847535338,
+      "stop" : 1685847544701,
+      "duration" : 9363
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685847545010,
+      "stop" : 1685847545150,
+      "duration" : 140
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_goto_page"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "13796-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_goto_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1c5f1a43a9556ff.json",
+  "parameterValues" : [ ]
+}

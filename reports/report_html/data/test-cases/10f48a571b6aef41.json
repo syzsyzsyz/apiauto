@@ -1,0 +1,60 @@
+{
+  "uid" : "10f48a571b6aef41",
+  "name" : "test_skip",
+  "fullName" : "testcase.test_goto_page#test_skip",
+  "historyId" : "e2680fae59f99e5fd47c3b866881db02",
+  "time" : {
+    "start" : 1685855763383,
+    "stop" : 1685855763383,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\python_Code\\\\pythonProject\\\\pythonclasses\\\\autoclass\\\\day07\\\\appautotest\\\\testcase\\\\test_goto_page.py', 12, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_goto_page"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "15984-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_goto_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "10f48a571b6aef41.json",
+  "parameterValues" : [ ]
+}

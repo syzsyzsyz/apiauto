@@ -1,0 +1,1 @@
+INFO     root:test_add.py:25 当前执行用例->case002_参数化加法

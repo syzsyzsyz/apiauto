@@ -1,0 +1,111 @@
+[ {
+  "uid" : "8537612b67aaa3d2",
+  "name" : "test_search",
+  "time" : {
+    "start" : 1689263250738,
+    "stop" : 1689263250927,
+    "duration" : 189
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3bea8ad5b5b0716a",
+  "name" : "test_search[d2]",
+  "time" : {
+    "start" : 1685860972867,
+    "stop" : 1685860981781,
+    "duration" : 8914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60ca521b2c9ebf6b",
+  "name" : "test_search[d0]",
+  "time" : {
+    "start" : 1685860915371,
+    "stop" : 1685860927776,
+    "duration" : 12405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e71227f1945665f",
+  "name" : "test_search[d1]",
+  "time" : {
+    "start" : 1685860945499,
+    "stop" : 1685860955612,
+    "duration" : 10113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ad342df1fc62a3",
+  "name" : "test_swipe",
+  "time" : {
+    "start" : 1685860865330,
+    "stop" : 1685860898268,
+    "duration" : 32938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e7aa03a432556c",
+  "name" : "test_user_order",
+  "time" : {
+    "start" : 1689263251566,
+    "stop" : 1689263251673,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43ba55fa9a9c3220",
+  "name" : "test_skip",
+  "time" : {
+    "start" : 1685860846804,
+    "stop" : 1685860846804,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7c76c54d4543b96a",
+  "name" : "test_user_login",
+  "time" : {
+    "start" : 1689263251115,
+    "stop" : 1689263251363,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2572e3883aa7d889",
+  "name" : "test_add_exc[d1]",
+  "time" : {
+    "start" : 1685791298860,
+    "stop" : 1685791298860,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2f3f1996b65454d0",
+  "name" : "test_user_info",
+  "time" : {
+    "start" : 1689263251677,
+    "stop" : 1689263251677,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd61e742f270bcec",
+  "name" : "test_add_exc[d0]",
+  "time" : {
+    "start" : 1685791298854,
+    "stop" : 1685791298854,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

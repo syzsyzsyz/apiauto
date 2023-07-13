@@ -1,0 +1,55 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "children" : [ {
+        "name" : "test_search",
+        "uid" : "8537612b67aaa3d2",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689263250738,
+          "stop" : 1689263250927,
+          "duration" : 189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0deff55915d4c9ebc746eac29285817c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 500 == 200\n  +500\n  -200",
+      "children" : [ {
+        "name" : "test_user_info",
+        "uid" : "2f3f1996b65454d0",
+        "parentUid" : "c7c3f630dbb3ae9f6e1dac3f82892eff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689263251677,
+          "stop" : 1689263251677,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7c3f630dbb3ae9f6e1dac3f82892eff"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

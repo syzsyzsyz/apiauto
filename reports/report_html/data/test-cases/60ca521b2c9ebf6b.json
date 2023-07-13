@@ -1,0 +1,376 @@
+{
+  "uid" : "60ca521b2c9ebf6b",
+  "name" : "test_search[d0]",
+  "fullName" : "testcase.test_search#test_search",
+  "historyId" : "38e1a8c625204e7214ad035408714d45",
+  "time" : {
+    "start" : 1685860915371,
+    "stop" : 1685860927776,
+    "duration" : 12405
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685860846814,
+      "stop" : 1685860847009,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685860847009,
+      "stop" : 1685860847009,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685860847010,
+      "stop" : 1685860847010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685860847010,
+      "stop" : 1685860847010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685860900924,
+      "stop" : 1685860900924,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685860900926,
+      "stop" : 1685860915369,
+      "duration" : 14443
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685860927776,
+      "stop" : 1685860929080,
+      "duration" : 1304
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "8832-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'name': '搜索手机', 'text': 'Xiaomi 12', 'expect': '手机'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d7a65e967ea8d2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685791313254,
+        "stop" : 1685791324674,
+        "duration" : 11420
+      }
+    }, {
+      "uid" : "c2158b3ab84c728a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685790513748,
+        "stop" : 1685790526845,
+        "duration" : 13097
+      }
+    }, {
+      "uid" : "7cfb11446cb44ccf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685789859002,
+        "stop" : 1685789870123,
+        "duration" : 11121
+      }
+    }, {
+      "uid" : "c47466d989723e27",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1685789710597,
+        "stop" : 1685789722119,
+        "duration" : 11522
+      }
+    }, {
+      "uid" : "6f9847edd650de87",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: Locator Strategy 'XPATH' is not supported for this session\nStacktrace:\nInvalidSelectorError: Locator Strategy 'XPATH' is not supported for this session\n    at AndroidUiautomator2Driver.validateLocatorStrategy (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:392:13)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:31:8)\n    at AndroidUiautomator2Driver.findElement (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:21)\n    at commandExecutor (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:334:9)\n    at C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:129:12\n    at AsyncLock._promiseTry (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:253:31)\n    at exec (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:128:9)\n    at AsyncLock.acquire (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:144:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:347:39)\n    at AppiumDriver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:547:36)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)",
+      "time" : {
+        "start" : 1685789393512,
+        "stop" : 1685789405055,
+        "duration" : 11543
+      }
+    }, {
+      "uid" : "c7f2228ce96aec7e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: Locator Strategy 'XPATH' is not supported for this session\nStacktrace:\nInvalidSelectorError: Locator Strategy 'XPATH' is not supported for this session\n    at AndroidUiautomator2Driver.validateLocatorStrategy (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:392:13)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:31:8)\n    at AndroidUiautomator2Driver.findElement (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:21)\n    at commandExecutor (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:334:9)\n    at C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:129:12\n    at AsyncLock._promiseTry (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:253:31)\n    at exec (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:128:9)\n    at AsyncLock.acquire (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:144:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:347:39)\n    at AppiumDriver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:547:36)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)",
+      "time" : {
+        "start" : 1685789313520,
+        "stop" : 1685789324645,
+        "duration" : 11125
+      }
+    }, {
+      "uid" : "2b662f3a0811434a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSelectorException: Message: Locator Strategy 'XPATH' is not supported for this session\nStacktrace:\nInvalidSelectorError: Locator Strategy 'XPATH' is not supported for this session\n    at AndroidUiautomator2Driver.validateLocatorStrategy (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:392:13)\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:31:8)\n    at AndroidUiautomator2Driver.findElement (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:21)\n    at commandExecutor (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:334:9)\n    at C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:129:12\n    at AsyncLock._promiseTry (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:253:31)\n    at exec (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:128:9)\n    at AsyncLock.acquire (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\async-lock\\lib\\index.js:144:3)\n    at AndroidUiautomator2Driver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\driver.js:347:39)\n    at AppiumDriver.executeCommand (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\lib\\appium.js:547:36)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:297:21)",
+      "time" : {
+        "start" : 1685789042517,
+        "stop" : 1685789053595,
+        "duration" : 11078
+      }
+    }, {
+      "uid" : "c5bd9fbc6e1163a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685788661596,
+        "stop" : 1685788669053,
+        "duration" : 7457
+      }
+    }, {
+      "uid" : "cfd77dfe5908da6a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WindowsPath' object has no attribute 'lower'",
+      "time" : {
+        "start" : 1685788576979,
+        "stop" : 1685788583804,
+        "duration" : 6825
+      }
+    }, {
+      "uid" : "377983acb8fe1d63",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WindowsPath' object has no attribute 'lower'",
+      "time" : {
+        "start" : 1685788403485,
+        "stop" : 1685788410561,
+        "duration" : 7076
+      }
+    }, {
+      "uid" : "a2e56a19957c9a89",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for +: 'WindowsPath' and 'str'",
+      "time" : {
+        "start" : 1685788334900,
+        "stop" : 1685788341875,
+        "duration" : 6975
+      }
+    }, {
+      "uid" : "8fddb084e7bc2846",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685787996656,
+        "stop" : 1685788003464,
+        "duration" : 6808
+      }
+    }, {
+      "uid" : "e3f4e1ba812ef19",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: androidx.test.uiautomator.StaleObjectException\nStacktrace:\nio.appium.uiautomator2.common.exceptions.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:45)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:261)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:255)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:818)\nCaused by: androidx.test.uiautomator.StaleObjectException\n\tat androidx.test.uiautomator.UiObject2.getAccessibilityNodeInfo(UiObject2.java:647)\n\tat androidx.test.uiautomator.UiObject2.hashCode(UiObject2.java:105)\n\tat java.lang.Object.toString(Object.java:355)\n\tat java.util.Formatter.transform(Formatter.java:1421)\n\tat java.util.Formatter.doFormat(Formatter.java:1081)\n\tat java.util.Formatter.format(Formatter.java:1042)\n\tat java.util.Formatter.format(Formatter.java:1011)\n\tat java.lang.String.format(String.java:1554)\n\tat java.lang.String.format(String.java:1528)\n\tat io.appium.uiautomator2.utils.ReflectionUtils.invoke(ReflectionUtils.java:84)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.extractAxNodeInfo(AxNodeInfoExtractor.java:51)\n\tat io.appium.uiautomator2.core.AxNodeInfoExtractor.toAxNodeInfo(AxNodeInfoExtractor.java:41)\n\tat io.appium.uiautomator2.utils.ElementHelpers.getText(ElementHelpers.java:193)\n\tat io.appium.uiautomator2.utils.ElementHelpers.getText(ElementHelpers.java:175)\n\tat io.appium.uiautomator2.model.BaseElement.getText(BaseElement.java:137)\n\tat io.appium.uiautomator2.handler.SendKeysToElement.setText(SendKeysToElement.java:74)\n\tat io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:115)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\t... 33 more",
+      "time" : {
+        "start" : 1685787116412,
+        "stop" : 1685787122343,
+        "duration" : 5931
+      }
+    }, {
+      "uid" : "dcbe9e00af1c30e4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: __init__() missing 1 required positional argument: 'driver'",
+      "time" : {
+        "start" : 1685786861655,
+        "stop" : 1685786866231,
+        "duration" : 4576
+      }
+    }, {
+      "uid" : "38c96822fa9e894f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: search_input() missing 1 required positional argument: 'self'",
+      "time" : {
+        "start" : 1685786787127,
+        "stop" : 1685786791889,
+        "duration" : 4762
+      }
+    }, {
+      "uid" : "bb299494a776c7e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: search_input() missing 1 required positional argument: 'txt'",
+      "time" : {
+        "start" : 1685786621208,
+        "stop" : 1685786625899,
+        "duration" : 4691
+      }
+    }, {
+      "uid" : "28f62a785cb8bcb2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'AppiumBy' has no attribute 'id'",
+      "time" : {
+        "start" : 1685786501127,
+        "stop" : 1685786501127,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ef222fb4fc49fad",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685786342298,
+        "stop" : 1685786342298,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5302f0cbf08a9b40",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685786240720,
+        "stop" : 1685786240720,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a0c3124f38fbd597",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685786174620,
+        "stop" : 1685786174620,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "93942912f2097436",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.xiaomi.shop.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.xiaomi.shop.activity.MainActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685786117722,
+        "stop" : 1685786117722,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe49af46b79b9058",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'AppiumBy' has no attribute 'id'",
+      "time" : {
+        "start" : 1685785827658,
+        "stop" : 1685785827658,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be302a7ed6249fa8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685785700072,
+        "stop" : 1685785700072,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "54081c238373577a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.xiaomi.shop' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685785614701,
+        "stop" : 1685785614701,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60ca521b2c9ebf6b.json",
+  "parameterValues" : [ "{'name': '搜索手机', 'text': 'Xiaomi 12', 'expect': '手机'}" ]
+}

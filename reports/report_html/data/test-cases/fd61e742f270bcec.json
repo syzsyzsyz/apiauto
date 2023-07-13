@@ -1,0 +1,889 @@
+{
+  "uid" : "fd61e742f270bcec",
+  "name" : "test_add_exc[d0]",
+  "fullName" : "testcase.test_add#test_add_exc",
+  "historyId" : "0e3b372ea89f7d166f6b6b795a1870ed",
+  "time" : {
+    "start" : 1685791298854,
+    "stop" : 1685791298854,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('D:\\\\python_Code\\\\pythonProject\\\\pythonclasses\\\\autoclass\\\\day06\\\\appautotest\\\\testcase\\\\test_add.py', 18, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 80,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685791298863,
+      "stop" : 1685791298974,
+      "duration" : 111
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685791298974,
+      "stop" : 1685791298975,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685791298975,
+      "stop" : 1685791313253,
+      "duration" : 14278
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685791298975,
+      "stop" : 1685791298975,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685791298975,
+      "stop" : 1685791298975,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685791298975,
+      "stop" : 1685791298975,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685791324675,
+      "stop" : 1685791325625,
+      "duration" : 950
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_add"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "19628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_add"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "d",
+    "value" : "{'name': 'case001_参数化加法', 'num1': 76, 'num2': 84}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5cb880816a330db",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685790504446,
+        "stop" : 1685790504446,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7e9128bd365d437",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685789850732,
+        "stop" : 1685789850732,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "50538a71f9a29f32",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685789701555,
+        "stop" : 1685789701555,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a29f4c4b74c93d19",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685789385127,
+        "stop" : 1685789385127,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d5945c178853c8e6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685789304583,
+        "stop" : 1685789304583,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c6410c52b86f1e98",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685789033313,
+        "stop" : 1685789033313,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec988cba77dc79",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685788653407,
+        "stop" : 1685788653407,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b863c0f42109fa4c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685788568683,
+        "stop" : 1685788568683,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4185f3b529c19f92",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685788395295,
+        "stop" : 1685788395295,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ee079338c2411d3a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685788326494,
+        "stop" : 1685788326494,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de9109350c97671e",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685787986449,
+        "stop" : 1685787986449,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "69df3db0654a7cd5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685787108231,
+        "stop" : 1685787108231,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9202f44752c25b23",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786853228,
+        "stop" : 1685786853228,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9bcfacffdd2503c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786779003,
+        "stop" : 1685786779003,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3ce6cf81772391c8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786612790,
+        "stop" : 1685786612790,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ca572bd095c4812a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786493054,
+        "stop" : 1685786493054,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2443a3d0c96edb8b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786342291,
+        "stop" : 1685786342291,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a0f1906070553c80",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786240711,
+        "stop" : 1685786240711,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aed3d4a75b4d98fe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786174612,
+        "stop" : 1685786174612,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "54b0bc926255e8b4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685786117716,
+        "stop" : 1685786117716,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6782554db9d1ccfe",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685785818006,
+        "stop" : 1685785818006,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d776f0fc2eb7c92",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685785700065,
+        "stop" : 1685785700065,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c51ca2660ef44595",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1685785614691,
+        "stop" : 1685785614691,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de07c50c4baea90f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685288146568,
+        "stop" : 1685288150726,
+        "duration" : 4158
+      }
+    }, {
+      "uid" : "b34145ab8d07b55b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: assert_equal() missing 1 required positional argument: 'self'",
+      "time" : {
+        "start" : 1685288008276,
+        "stop" : 1685288012494,
+        "duration" : 4218
+      }
+    }, {
+      "uid" : "7aa2ae9ba934c678",
+      "status" : "broken",
+      "statusDetails" : "TypeError: assert_equal() missing 1 required positional argument: 'expected'",
+      "time" : {
+        "start" : 1685287807823,
+        "stop" : 1685287811911,
+        "duration" : 4088
+      }
+    }, {
+      "uid" : "4198fa6e72defd95",
+      "status" : "broken",
+      "statusDetails" : "TypeError: assert_equal() missing 1 required positional argument: 'expected'",
+      "time" : {
+        "start" : 1685287670945,
+        "stop" : 1685287675108,
+        "duration" : 4163
+      }
+    }, {
+      "uid" : "627e44ab242ba601",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'index' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, bounds, displayed, contentSize]\nStacktrace:\nio.appium.uiautomator2.common.exceptions.NoSuchAttributeException: 'index' attribute is unknown for the element. Only the following attributes are supported: [checkable, checked, {class,className}, clickable, {content-desc,contentDescription}, enabled, focusable, focused, {long-clickable,longClickable}, package, password, {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, bounds, displayed, contentSize]\n\tat io.appium.uiautomator2.utils.ElementHelpers.generateNoAttributeException(ElementHelpers.java:167)\n\tat io.appium.uiautomator2.model.UiObject2Element.getAttribute(UiObject2Element.java:141)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:24)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:261)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:255)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:818)",
+      "time" : {
+        "start" : 1685287345810,
+        "stop" : 1685287350016,
+        "duration" : 4206
+      }
+    }, {
+      "uid" : "d93800d81cd360ae",
+      "status" : "broken",
+      "statusDetails" : "ValueError: invalid literal for int() with base 10: '支出'",
+      "time" : {
+        "start" : 1685287016932,
+        "stop" : 1685287021230,
+        "duration" : 4298
+      }
+    }, {
+      "uid" : "dd15b1a22c9a4205",
+      "status" : "broken",
+      "statusDetails" : "ValueError: invalid literal for int() with base 10: '支出'",
+      "time" : {
+        "start" : 1685286930183,
+        "stop" : 1685286934435,
+        "duration" : 4252
+      }
+    }, {
+      "uid" : "c4072b3e94ce8f06",
+      "status" : "broken",
+      "statusDetails" : "ValueError: invalid literal for int() with base 10: '支出'",
+      "time" : {
+        "start" : 1685286752892,
+        "stop" : 1685286757147,
+        "duration" : 4255
+      }
+    }, {
+      "uid" : "9350e300b01f7b32",
+      "status" : "broken",
+      "statusDetails" : "ValueError: invalid literal for int() with base 10: '支出'",
+      "time" : {
+        "start" : 1685286465704,
+        "stop" : 1685286473860,
+        "duration" : 8156
+      }
+    }, {
+      "uid" : "7e23a9a2e3b9a86f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685286310843,
+        "stop" : 1685286310843,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f754ffc3912bb6e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685286162599,
+        "stop" : 1685286162599,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6adf7e80257239b9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685285991850,
+        "stop" : 1685285991850,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "19711ce46c1c257a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685285789729,
+        "stop" : 1685285789729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dc34014146799629",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0D5FC250>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1685285730828,
+        "stop" : 1685285730828,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12563edafc6cae6f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685285660985,
+        "stop" : 1685285660985,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f744f4d9a510143c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685285387495,
+        "stop" : 1685285387495,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "48a2df15f092ad75",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685285309096,
+        "stop" : 1685285309096,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ced43f75effdb7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685284381530,
+        "stop" : 1685284381530,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "559860180d3468f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685284328847,
+        "stop" : 1685284328847,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e027fc3376590645",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685284222700,
+        "stop" : 1685284222700,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e53162c69924a5e0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685284015570,
+        "stop" : 1685284015570,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "328d18c68cba9629",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685283932207,
+        "stop" : 1685283932207,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e0ff520c10bb7660",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685283725165,
+        "stop" : 1685283725165,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3a1af9af4fedd4dd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685283655591,
+        "stop" : 1685283655591,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4709d71daf9c633e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685283571413,
+        "stop" : 1685283571413,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5017381ce19f4a68",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0DA1C370>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1685283456692,
+        "stop" : 1685283456692,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "99669e65c87bf8f5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685283352477,
+        "stop" : 1685283352477,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1f5411cc53602ff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685283155903,
+        "stop" : 1685283155903,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "160d11924f1cb8f4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685283017112,
+        "stop" : 1685283017112,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b47b5c55145cb9c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685282822988,
+        "stop" : 1685282822988,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "527a76fd6ed0053f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: pkg, and activity or intent action, are required to start an application\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: pkg, and activity or intent action, are required to start an application\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685282611358,
+        "stop" : 1685282611358,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4f422946c7261ec5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685282521034,
+        "stop" : 1685282521034,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d03e3654311179d6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators/.CalculatorActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators/.CalculatorActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685282357480,
+        "stop" : 1685282357480,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b7831ae71c863b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start '.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685282275473,
+        "stop" : 1685282275473,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c91ed747b9f9e765",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.com.ibox.calculators.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.com.ibox.calculators.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685282085829,
+        "stop" : 1685282085829,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e856ccb1aea827dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685281979345,
+        "stop" : 1685281979345,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "95d71eba183d1fa3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: The permission to start 'com.ibox.calculators.CalculatorActivity' activity has been denied.Make sure the activity/package names are correct.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685281902655,
+        "stop" : 1685281902655,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "77e11aeb9c533641",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685281855298,
+        "stop" : 1685281855298,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b3935dda813c925",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685281817245,
+        "stop" : 1685281817245,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "40fdde6cae249e3",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0D0ED3B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1685281476544,
+        "stop" : 1685281476544,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7d45f8035508fcb9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685268638444,
+        "stop" : 1685268638444,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b73e28e43f5fe76c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685268501879,
+        "stop" : 1685268501879,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "646f7643604216c0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators/com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators/com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685268374718,
+        "stop" : 1685268374718,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2bbdd9430dd5fc4d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators/com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity name '.com.ibox.calculators/com.ibox.calculators.CalculatorActivity}' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685268306497,
+        "stop" : 1685268306497,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "31e1e7a9e84e55d4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685268028838,
+        "stop" : 1685268028838,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d3c473d9506fc7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685267925382,
+        "stop" : 1685267925382,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "82c0d6a80906920f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685267618635,
+        "stop" : 1685267618635,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fd225fad5de9443c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685267422974,
+        "stop" : 1685267422974,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "149c4f6bd7bb910a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1685267278489,
+        "stop" : 1685267308524,
+        "duration" : 30035
+      }
+    }, {
+      "uid" : "7aa2bc62f6a7a56a",
+      "status" : "broken",
+      "statusDetails" : "ValueError: invalid literal for int() with base 10: '支出'",
+      "time" : {
+        "start" : 1685267167938,
+        "stop" : 1685267170355,
+        "duration" : 2417
+      }
+    }, {
+      "uid" : "70a31e720316d00a",
+      "status" : "broken",
+      "statusDetails" : "ValueError: invalid literal for int() with base 10: '支出'",
+      "time" : {
+        "start" : 1685267094263,
+        "stop" : 1685267096371,
+        "duration" : 2108
+      }
+    }, {
+      "uid" : "1ea9b4320cca653d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1685266822068,
+        "stop" : 1685266822099,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "cbbd3dfd839b6d05",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685264775426,
+        "stop" : 1685264775426,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ea0cf46d33de35c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685264647185,
+        "stop" : 1685264647185,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c1593bebafa59d1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Activity for intent 'android.intent.action.MAIN' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685264547867,
+        "stop" : 1685264547867,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "65be9b8a3cad620b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685264330655,
+        "stop" : 1685264330655,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb6a20516458be78",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.ibox.calculators' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.ibox.calculators.SplashActivity' or 'com.ibox.calculators.com.ibox.calculators.SplashActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685264210319,
+        "stop" : 1685264210319,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "fd61e742f270bcec.json",
+  "parameterValues" : [ "{'name': 'case001_参数化加法', 'num1': 76, 'num2': 84}" ]
+}

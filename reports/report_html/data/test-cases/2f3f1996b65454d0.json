@@ -1,0 +1,164 @@
+{
+  "uid" : "2f3f1996b65454d0",
+  "name" : "test_user_info",
+  "fullName" : "testcase.test_user_api#test_user_info",
+  "historyId" : "8bd266c1342dd73146741a87aebdeab3",
+  "time" : {
+    "start" : 1689263251677,
+    "stop" : 1689263251677,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 500 == 200\n  +500\n  -200",
+  "statusTrace" : "def test_user_login():\n    \turl_path = \"https://newecshop.longtest.cn/shopapi/index.php/user/login\"\n    \tres = requests.post(url=url_path, data=data[0], verify=False)\n>   \tassert res.status_code == 200\nE    assert 500 == 200\nE      +500\nE      -200\n\ntestcase\\test_user_api.py:27: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1689263250603,
+      "stop" : 1689263250736,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1689263250736,
+      "stop" : 1689263250736,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1689263250736,
+      "stop" : 1689263250736,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1689263250736,
+      "stop" : 1689263250736,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "get_key",
+    "time" : {
+      "start" : 1689263251678,
+      "stop" : 1689263251815,
+      "duration" : 137
+    },
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 500 == 200\n  +500\n  -200\n",
+    "statusTrace" : "  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\pluggy\\_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\syz\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 932, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"D:\\python_Code\\pythonProject\\pythonclasses\\autoclass\\day10\\apiautotest\\conftest.py\", line 20, in get_key\n    return test_user_api.test_user_login()\n  File \"D:\\python_Code\\pythonProject\\pythonclasses\\autoclass\\day10\\apiautotest\\testcase\\test_user_api.py\", line 27, in test_user_login\n    assert res.status_code == 200\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1689263251678,
+      "stop" : 1689263251678,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_api"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "3860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_user_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "edb631b09cacc314",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '2' == '1'\n  - 1\n  + 2",
+      "time" : {
+        "start" : 1689262767469,
+        "stop" : 1689262767470,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2f3f1996b65454d0.json",
+  "parameterValues" : [ ]
+}

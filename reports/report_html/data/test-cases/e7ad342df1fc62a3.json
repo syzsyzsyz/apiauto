@@ -1,0 +1,310 @@
+{
+  "uid" : "e7ad342df1fc62a3",
+  "name" : "test_swipe",
+  "fullName" : "testcase.test_goto_page#test_swipe",
+  "historyId" : "3d43d2ce1d3a9a5a3a2e5a8237a32149",
+  "time" : {
+    "start" : 1685860865330,
+    "stop" : 1685860898268,
+    "duration" : 32938
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1685860846814,
+      "stop" : 1685860847009,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1685860847009,
+      "stop" : 1685860847009,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1685860847010,
+      "stop" : 1685860847010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1685860847010,
+      "stop" : 1685860847010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup_teardown",
+    "time" : {
+      "start" : 1685860847010,
+      "stop" : 1685860865327,
+      "duration" : 18317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1685860847010,
+      "stop" : 1685860847010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_teardown::0",
+    "time" : {
+      "start" : 1685860898270,
+      "stop" : 1685860900881,
+      "duration" : 2611
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_goto_page"
+  }, {
+    "name" : "host",
+    "value" : "syzpc"
+  }, {
+    "name" : "thread",
+    "value" : "8832-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_goto_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b61486f61019e6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685858063839,
+        "stop" : 1685858084731,
+        "duration" : 20892
+      }
+    }, {
+      "uid" : "a65c7e0bff71710c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685857451832,
+        "stop" : 1685857470402,
+        "duration" : 18570
+      }
+    }, {
+      "uid" : "5eb4ea1b39c800aa",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\\Users\\syz\\AppData\\Local\\Temp\\202354-16692-1wg0m7f.st8u\\appium-uiautomator2-server-v4.17.4.apk'. Original error: Error occurred during initialization of VM\nCould not reserve enough space for object heap\n\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\\Users\\syz\\AppData\\Local\\Temp\\202354-16692-1wg0m7f.st8u\\appium-uiautomator2-server-v4.17.4.apk'. Original error: Error occurred during initialization of VM\nCould not reserve enough space for object heap\n\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685856431192,
+        "stop" : 1685856431192,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "128e5fbb2f5ab54",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20260ms.\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20260ms.\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685856373556,
+        "stop" : 1685856373556,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c8a23479f8711ea3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\\Users\\syz\\AppData\\Local\\Temp\\202354-23592-12y2e5v.rcel\\appium-uiautomator2-server-v4.17.4.apk'. Original error: Exception in thread \"main\" java.lang.OutOfMemoryError\r\n\tat sun.misc.Unsafe.allocateMemory(Native Method)\r\n\tat java.nio.DirectByteBuffer.<init>(DirectByteBuffer.java:127)\r\n\tat java.nio.ByteBuffer.allocateDirect(ByteBuffer.java:311)\r\n\tat com.android.apksig.internal.util.FileChannelDataSource.feed(FileChannelDataSource.java:102)\r\n\tat com.android.apksig.internal.zip.LocalFileRecord.outputUncompressedData(LocalFileRecord.java:384)\r\n\tat com.android.apksig.internal.zip.LocalFileRecord.outputUncompressedData(LocalFileRecord.java:434)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier.verifyJarEntriesAgainstManifestAndSigners(V1SchemeVerifier.java:1325)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier.access$700(V1SchemeVerifier.java:84)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier$Signers.verify(V1SchemeVerifier.java:363)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier$Signers.access$100(V1SchemeVerifier.java:204)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier.verify(V1SchemeVerifier.java:126)\r\n\tat com.android.apksig.ApkVerifier.verify(ApkVerifier.java:294)\r\n\tat com.android.apksig.ApkVerifier.verify(ApkVerifier.java:149)\r\n\tat com.android.apksigner.ApkSignerTool.verify(ApkSignerTool.java:531)\r\n\tat com.android.apksigner.ApkSignerTool.main(ApkSignerTool.java:91)\r\n\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\\Users\\syz\\AppData\\Local\\Temp\\202354-23592-12y2e5v.rcel\\appium-uiautomator2-server-v4.17.4.apk'. Original error: Exception in thread \"main\" java.lang.OutOfMemoryError\r\n\tat sun.misc.Unsafe.allocateMemory(Native Method)\r\n\tat java.nio.DirectByteBuffer.<init>(DirectByteBuffer.java:127)\r\n\tat java.nio.ByteBuffer.allocateDirect(ByteBuffer.java:311)\r\n\tat com.android.apksig.internal.util.FileChannelDataSource.feed(FileChannelDataSource.java:102)\r\n\tat com.android.apksig.internal.zip.LocalFileRecord.outputUncompressedData(LocalFileRecord.java:384)\r\n\tat com.android.apksig.internal.zip.LocalFileRecord.outputUncompressedData(LocalFileRecord.java:434)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier.verifyJarEntriesAgainstManifestAndSigners(V1SchemeVerifier.java:1325)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier.access$700(V1SchemeVerifier.java:84)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier$Signers.verify(V1SchemeVerifier.java:363)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier$Signers.access$100(V1SchemeVerifier.java:204)\r\n\tat com.android.apksig.internal.apk.v1.V1SchemeVerifier.verify(V1SchemeVerifier.java:126)\r\n\tat com.android.apksig.ApkVerifier.verify(ApkVerifier.java:294)\r\n\tat com.android.apksig.ApkVerifier.verify(ApkVerifier.java:149)\r\n\tat com.android.apksigner.ApkSignerTool.verify(ApkSignerTool.java:531)\r\n\tat com.android.apksigner.ApkSignerTool.main(ApkSignerTool.java:91)\r\n\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685855982043,
+        "stop" : 1685855982043,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e1578999ee2b75c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\\Users\\syz\\AppData\\Local\\Temp\\202354-23592-php3b9.38k0s\\appium-uiautomator2-server-v4.17.4.apk'. Original error: #\n# There is insufficient memory for the Java Runtime Environment to continue.\n# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap\n# An error report file with more information is saved as:\n# D:\\download\\app soft\\android-sdk\\build-tools\\30.0.3\\lib\\hs_err_pid20892.log\n\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot verify the signature of 'C:\\Users\\syz\\AppData\\Local\\Temp\\202354-23592-php3b9.38k0s\\appium-uiautomator2-server-v4.17.4.apk'. Original error: #\n# There is insufficient memory for the Java Runtime Environment to continue.\n# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap\n# An error report file with more information is saved as:\n# D:\\download\\app soft\\android-sdk\\build-tools\\30.0.3\\lib\\hs_err_pid20892.log\n\n    at getResponseForW3CError (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\errors.js:804:9)\n    at asyncHandler (C:\\Program Files\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\protocol\\protocol.js:380:37)",
+      "time" : {
+        "start" : 1685855918523,
+        "stop" : 1685855918523,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f006ecd5a3e67500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685855683333,
+        "stop" : 1685855691413,
+        "duration" : 8080
+      }
+    }, {
+      "uid" : "e1a093348bf5967f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685855537927,
+        "stop" : 1685855543516,
+        "duration" : 5589
+      }
+    }, {
+      "uid" : "585c4c75d99acb0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685855491492,
+        "stop" : 1685855495094,
+        "duration" : 3602
+      }
+    }, {
+      "uid" : "a3781f87088b79f0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'appauto' object has no attribute 'startx'",
+      "time" : {
+        "start" : 1685855351475,
+        "stop" : 1685855354494,
+        "duration" : 3019
+      }
+    }, {
+      "uid" : "8b62ac84a99f08e8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'appauto' object has no attribute 'startx'",
+      "time" : {
+        "start" : 1685855268588,
+        "stop" : 1685855271609,
+        "duration" : 3021
+      }
+    }, {
+      "uid" : "c5a8920a031a2430",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'startx' referenced before assignment",
+      "time" : {
+        "start" : 1685855075203,
+        "stop" : 1685855078232,
+        "duration" : 3029
+      }
+    }, {
+      "uid" : "b968e6812a9daf6d",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'startx' referenced before assignment",
+      "time" : {
+        "start" : 1685852003123,
+        "stop" : 1685852006139,
+        "duration" : 3016
+      }
+    }, {
+      "uid" : "430f08f56d6e04d8",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'startx' referenced before assignment",
+      "time" : {
+        "start" : 1685851971544,
+        "stop" : 1685851974562,
+        "duration" : 3018
+      }
+    }, {
+      "uid" : "93b948da863a273a",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'start_x' referenced before assignment",
+      "time" : {
+        "start" : 1685851698089,
+        "stop" : 1685851701109,
+        "duration" : 3020
+      }
+    }, {
+      "uid" : "d809f5c89d2d4198",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0DADD690>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1685851612973,
+        "stop" : 1685851620997,
+        "duration" : 8024
+      }
+    }, {
+      "uid" : "a384ce0c910fff2c",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0DA3B830>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1685851106989,
+        "stop" : 1685851115018,
+        "duration" : 8029
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7ad342df1fc62a3.json",
+  "parameterValues" : [ ]
+}
