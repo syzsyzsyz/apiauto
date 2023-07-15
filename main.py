@@ -11,6 +11,6 @@ def run():
 	file_list = os.listdir(BASE_DIR.LOGS_DIR)
 	for i in file_list:
 		os.remove(BASE_DIR.LOGS_DIR / i)
-	os.system("python -m pytest")
+	os.system("python3 -m pytest")
 if __name__ == "__main__":
 	run()
